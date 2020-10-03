@@ -1,5 +1,4 @@
 '''
-    =========================CSB18040========================
     Using repeated multiplication modulo to
     calculate modular exponentiation
     function uses:
@@ -18,7 +17,6 @@
                 (e*f*g) mod b
         main()
             main driver function
-    ---------------------------------------------------------
 '''
 def CalcSmallExpo(memo, A, B, C):
     if B in memo:
