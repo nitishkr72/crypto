@@ -1,5 +1,5 @@
 '''
-    Using repeated multiplication modulo to
+    Using repeated Squaring modulo to
     calculate modular exponentiation
     function uses:
         CalcSmallExpo(memo, A, B, C)
