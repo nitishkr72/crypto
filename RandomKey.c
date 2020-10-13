@@ -1,3 +1,7 @@
+'''
+	this program will generate a secret key for substitution ciphers, 
+	it will generate a 26 character long random key and save it to secretkey.txt
+'''
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
