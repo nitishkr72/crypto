@@ -3,7 +3,7 @@
 '''
 
 import random
-########these function are taken from q3 answer###########
+##########################################################
 ##########################################################
 def CalcSmallExpo(memo, A, B, C):
     if B in memo:
