@@ -20,17 +20,12 @@ def EEA(r0, r1, i, s ,t):
 		return (i, s, t)
 	elif i < 2:
 		q = r0//r1
-		s = (0, 1)
-		t = (1, -q)
-		i, s, t = EEA(r1, r0%r1, 2, s, t)
+		i, s, t = EEA(r1, r0%r1, 2, (0, 1), (1, -q))
 	else:
 		q = r0//r1
 		s2 = s0 - q*s1
 		t2 = t0 - q*t1
-		s = (s1, s2)
-		t = (t1, t2)
-		i = i+1
-		i, s, t = EEA(r1, r0%r1, i, s, t)
+		i, s, t = EEA(r1, r0%r1, i+1, (s1, s2), (t1, t2))
 	return (i, s ,t)
 
 
