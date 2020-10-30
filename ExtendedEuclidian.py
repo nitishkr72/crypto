@@ -1,4 +1,4 @@
-'''
+''' 
 
  Extended Euclidean Algorithm..
  using recursive for of s and t
@@ -8,9 +8,9 @@
  for i < 2, S0 = 1 and S1 = 1
             T0 = 0 and T1 = 1
  here s and t is a tuple containing
- s = (s(i-1), s(i-2)) 
+ s = (s(i-2), s(i-1)) 
  	and 
- t = (t(i-1) and t(i-2))
+ t = (t(i-2) and t(i-1))
 
 '''
 def EEA(r0, r1, i, s ,t):
