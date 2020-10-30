@@ -18,9 +18,6 @@ def EEA(r0, r1, i, s ,t):
 	t0, t1 = t
 	if r0%r1 == 0:
 		return (i, s, t)
-	elif i < 2:
-		q = r0//r1
-		i, s, t = EEA(r1, r0%r1, 2, (0, 1), (1, -q))
 	else:
 		q = r0//r1
 		s2 = s0 - q*s1
